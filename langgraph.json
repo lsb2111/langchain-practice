@@ -3,6 +3,7 @@
   "env": ".env",
   "graphs": {
     "counter": "./dist/langgraph/studio-graph.js:graph",
-    "simple": "./dist/langgraph/02-visualize-graph.js:graph"
+    "simple": "./dist/langgraph/02-visualize-graph.js:graph",
+    "chatbot": "./dist/langgraph/03-chat-with-memory.js:graph"
   }
 }

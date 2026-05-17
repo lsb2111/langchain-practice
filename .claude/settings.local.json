@@ -34,7 +34,9 @@
       "Bash(node -e \"console.log\\(require\\('/Users/limsunbin/langchain/node_modules/zod/package.json'\\).version\\)\")",
       "Bash(npm list *)",
       "Bash(gh repo *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
