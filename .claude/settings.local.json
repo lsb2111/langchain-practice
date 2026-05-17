@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(npm --version)",
+      "Bash(git branch *)",
+      "Bash(npm install *)",
+      "Bash(npx tsx *)",
+      "Read(//Applications/**)",
+      "Bash(brew list *)",
+      "Bash(npx @langchain/langgraph-cli --help)",
+      "Bash(npx @langchain/langgraph-cli dev)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "Bash(npx @langchain/langgraph-cli dev --help)",
+      "Bash(npx tsc *)",
+      "Bash(lsof -ti:2024)",
+      "Bash(xargs kill -9)",
+      "Bash(npx @langchain/langgraph-cli dev --no-browser)",
+      "Bash(curl -s http://localhost:2024/ok)",
+      "Bash(curl -s http://localhost:2024/assistants/search)",
+      "Bash(curl -s http://localhost:2024/info)",
+      "Bash(python3 -m json.tool)",
+      "Bash(lsof -i:2024)",
+      "Bash(kill -9 74560)",
+      "Bash(node -e \"import\\('./dist/studio-graph.js'\\).then\\(m => console.log\\(typeof m.graph, m.graph.constructor.name\\)\\).catch\\(e => console.error\\(e.message\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const p = require\\('./node_modules/@langchain/langgraph/package.json'\\); console.log\\('langgraph:', p.version\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/@langchain/core/package.json'\\); console.log\\('core:', p.version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('/Users/limsunbin/langchain/node_modules/@langchain/langgraph-cli/node_modules/tsx/package.json'\\).version\\)\")",
+      "Bash(node /Users/limsunbin/langchain/node_modules/tsx/dist/cli.mjs -e ' *)",
+      "Bash(node /Users/limsunbin/langchain/node_modules/tsx/dist/cli.mjs /dev/stdin)",
+      "Bash(node -e \"const pkg = require\\('/Users/limsunbin/langchain/node_modules/@langchain/langgraph/package.json'\\); const exports = pkg.exports; Object.keys\\(exports\\).filter\\(k => k.includes\\('zod'\\)\\).forEach\\(k => console.log\\(k, '->', exports[k]\\)\\)\")",
+      "Bash(node -e \"console.log\\(require\\('/Users/limsunbin/langchain/node_modules/zod/package.json'\\).version\\)\")",
+      "Bash(npm list *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)"
+    ]
+  }
+}

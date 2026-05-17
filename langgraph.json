@@ -1,0 +1,8 @@
+{
+  "node_version": "20",
+  "env": ".env",
+  "graphs": {
+    "counter": "./dist/langgraph/studio-graph.js:graph",
+    "simple": "./dist/langgraph/02-visualize-graph.js:graph"
+  }
+}
